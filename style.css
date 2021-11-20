@@ -1,0 +1,201 @@
+*{
+    font-family: cursive !important;
+}
+.main-menu
+{
+    background:linear-gradient(to right,rgb(9, 196, 243), rgb(6, 30, 248));
+    padding: 15px;
+}
+
+.navbar-brand
+{
+    color:white;
+    font-size: 30px;
+}
+
+.my-logo
+{
+    width:120px;
+    height: 120px;
+    background-color: hotpink;
+    border-radius: 50%;
+    padding: 10px;
+}
+.navbar-toggler-icon
+{
+    border-color: white !important;
+}
+
+.nav-link
+{
+    color:white;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.nav-link:hover
+{
+    background-color: hotpink;
+    color: white;
+}
+
+.navbar-nav
+{
+    margin-left: 100px;
+}
+
+.banner
+{
+    height: 700px;
+    width: 100%;
+    background:linear-gradient(to right,rgb(9, 196, 243), rgb(6, 30, 248));
+}
+
+.banner-heading
+{
+    background-color:hotpink;
+    color: white;
+    padding: 5px;
+}
+
+.banner-link
+{
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 5px;
+    display: block;
+    border-radius: 5px;
+
+}
+
+
+
+.banner-text
+{
+    position: relative;
+    top:30%;
+}
+
+.banner-image
+{
+    width: 100%;
+}
+
+/* ---------------------------------about us------------------------ */
+.section-header
+{
+    color:rgb(245, 2, 124);
+    text-align: center;
+    margin: 30px;
+    padding: 5px;
+}
+
+.logo-image
+{
+    width: 95%;
+}
+
+/* ----------------------------services--------------------- */
+.service-container
+{
+    padding: 20px;
+}
+.service-container h4
+{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.service-box
+{
+    background-color: white;
+    position: relative;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+}
+
+.service-box button
+{
+    width: 100%;
+    background-color: hotpink;
+    color: white;
+}
+
+.service-box:hover
+{
+    background:linear-gradient(to right, rgb(85, 187, 246), rgb(43, 43, 202));
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+/* ---------------------------------our team------------------- */
+.team-container img
+{
+    height:250px;
+    width: 290px;
+    border-radius: 50%;
+    position: relative;
+    left:70px;
+    box-shadow: 5px 5px 15px;
+}
+
+/* ------------------------------contact-------------------- */
+.google-map
+{
+    width: 100%;
+}
+
+/* ---------------footer----------------- */
+.footer
+{
+    width: 100%;
+    min-height: 400px;
+    background:linear-gradient(to right,rgb(9, 196, 243), rgb(6, 30, 248));
+}
+
+
+
+
+
+
+
+@media (max-width:800px) 
+{
+    .navbar-nav
+    {
+        margin-left: 0px;
+        margin-top: 15px !important;
+    }
+
+    .banner-heading
+    {
+        font-size: 21px;
+    }
+    .banner-text
+    {
+        top:2%;
+    }
+    .banner-text p
+    {
+        font-size: 14px;
+    }
+    .service-box
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .team-container img
+    {
+        width: 180px;
+        height: 150px;
+        position: relative;
+        left: 95px;
+    }
+    
+}
+
+
